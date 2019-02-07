@@ -5,7 +5,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 public class ApproccioJPA {
-
+	
+	// @Transactional => JTA
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("gg1-dao");
 		EntityManager em = emf.createEntityManager();
@@ -14,5 +15,4 @@ public class ApproccioJPA {
 		System.out.println(p.getNome());
 		em.close();
 	}
-
 }
