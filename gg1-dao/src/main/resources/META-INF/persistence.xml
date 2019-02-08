@@ -4,10 +4,28 @@
 		<class>jdbc.Persona</class>
 		<class>jdbc.Indirizzo</class>
 		<class>jdbc.Corso</class>
+		<class>jdbc.Scuola</class>
+		<class>jdbc.Materia</class>
+		<class>jdbc.Automobile</class>
+		<class>jdbc.ChiaveCitta</class>
+		<class>jdbc.Citta</class>
+		<class>jdbc.Cane</class>
+		<class>jdbc.Animale</class>
+		<class>jdbc.Gatto</class>
+		<class>jdbc.CaneST</class>
+		<class>jdbc.GattoST</class>
+		<class>jdbc.AnimaleST</class>
+		<class>jdbc.AnimaleJ</class>
+		<class>jdbc.CaneJ</class>
+		<class>jdbc.GattoJ</class>
+		<class>jdbc.GattoTPC</class>
+		<class>jdbc.CaneTPC</class>
+		<class>jdbc.AnimaleTPC</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:derby:corsojpa;create=true"/>
 			<property name="javax.persistence.schema-generation.database.action" value="create"/>
+			<property name="hibernate.show_sql" value="true"/>
 		</properties>
 	</persistence-unit>
 </persistence>

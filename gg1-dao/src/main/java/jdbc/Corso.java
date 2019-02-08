@@ -19,7 +19,7 @@ public class Corso {
 	
 	public void addIscritto(Persona p) {
 		if (this.iscritti == null)
-			this.iscritti = new ArrayList<Persona>();
+			this.iscritti = new ArrayList<>();
 		this.iscritti.add(p);
 		// p.addIscrizione(this);
 	}
