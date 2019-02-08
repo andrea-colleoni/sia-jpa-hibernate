@@ -1,5 +1,6 @@
 package jdbc;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,7 +19,7 @@ public class Indirizzo {
 	private String cap;
 	private String citta;
 	
-	@ManyToOne
+	@ManyToOne(cascade= {CascadeType.PERSIST})
 	private Persona persona;
 	
 	public int getId() {
