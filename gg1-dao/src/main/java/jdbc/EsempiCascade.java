@@ -11,7 +11,7 @@ public class EsempiCascade {
 		
 		Persona p = new Persona();
 		p.setNome("Test");
-		p.setCodiceFiscale("TSTCSC5");
+		p.setCodiceFiscale("TSTCSC6");
 		p.setCognome("Cascade");
 		
 		Indirizzo i = new Indirizzo();
@@ -19,7 +19,7 @@ public class EsempiCascade {
 		i.setCitta("Milano");
 		
 		Corso c = new Corso();
-		c.setCodiceCorso("HIB");
+		c.setCodiceCorso("HIBX");
 		c.setDescrizione("Hibernate JPA");
 		
 		p.addIscrizione(c);
